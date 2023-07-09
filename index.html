@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/icons8-bookmark-page-100.png">
+    
+    <title>Bookmarker</title>
+</head>
+<body>
+    <header>
+        <div class="container py-4">
+            <h3 class="text-secondary">Bookmarker</h3>
+        </div>
+    </header>
+    <section class="user-inputs">
+        <div class="container bg-light my-3 py-3 text-center">
+            <h4 class="fw-bolder mt-4">Bookmark your favorite sites</h4>
+            <div class="inputs">
+                <p class="fw-bolder my-3">Site Name</p>
+                <input type="text" id="SName" placeholder="Bookmark Name" class="w-75 p-2 rounded border-0">
+                <p class="fw-bolder my-3">Site URL</p>
+                <input type="text" id="SUrl" placeholder="Website URL" class="w-75 p-2 rounded border-0">
+            </div>
+            <button id="Submit" class="btn btn-primary mt-5 py-2 px-4" onclick="create()">Submit</button>
+        </div>
+    </section>
+    <section>
+        <div class="container" id="container">
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>	Designed by Ahmed Ashraf &#169; </p>
+        </div>
+    </footer>
+</body>
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
